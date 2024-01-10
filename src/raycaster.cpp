@@ -4,7 +4,7 @@ void Raycaster::rayInit(SDL_Renderer *renderWindow, vector<vector<int>> mapData)
     this->renderWindow = renderWindow;
     this->mapData = mapData;
     this->fov = 60*M_PI/180; //FOV in degees -> FOV in radians
-    this->rayCount = 160;
+    this->rayCount = 400;
     this->wallOffset = 0;
 }
 

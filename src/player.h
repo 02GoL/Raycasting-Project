@@ -15,6 +15,7 @@ class Player{
         int moveSpeed;
         int turnRate;
         int velocity;
+        int sideOffset;
         int dx;
         int dy;
         int turnDir;

@@ -2,8 +2,8 @@
 
 void Window::init(int x,int y){
     map.mapInit();
-    this->xDim = map.getMapX()*map.getMapCellSize();
-    this->yDim = map.getMapY()*map.getMapCellSize();
+    this->xDim = 800;
+    this->yDim = 800;
 
     if(SDL_Init(SDL_INIT_EVERYTHING) == 0){
         cout << "Initializing...\n";
