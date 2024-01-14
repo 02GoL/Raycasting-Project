@@ -1,4 +1,4 @@
-# Raycasting
+# Raycasting Project
 This is a simple project in exploring raycasting, a tool used in older games to simulate a 3d experience for the player.
 
 ## Dependencies
